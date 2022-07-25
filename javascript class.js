@@ -61,8 +61,9 @@
 // console.log(solution);
 
 
-for (var seat = 100; seat < 1; seat--){
-    for(let row = 25; row <1; row--){
-        console.log(seat +"-"+ row)
-    }
-}
+// for (var seat = 100; seat < 1; seat--){
+//     for(let row = 25; row <1; row--){
+//         console.log(seat +"-"+ row)
+//     }
+// }
+
