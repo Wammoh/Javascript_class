@@ -67,3 +67,11 @@
 //     }
 // }
 
+// function laugh(num){
+// for(num; num<=0;num--){
+//     if (num ===1){
+// console.log(ha!)
+//     }
+// }
+// }
+console.log("haha" *3)
