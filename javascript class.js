@@ -66,12 +66,36 @@
 //         console.log(seat +"-"+ row)
 //     }
 // }
+// var sound +""
+// function laugh(num){
+// for (num; num === 0; num -1){
+//     if (num == 1){
+//         return "ha!"
+//         num -= 1
+//     }
+//     else if (num > 1){
+//         return "ha"
+//         num -=1
+//     }
+// }
+// }
+// console.log(laugh(4))
 
-function laugh(num){
-for(num; num<=0;num--){
-    if (num ===1){
-console.log(ha!)
+
+
+
+function makeLine(length) {
+    var line = "";
+    for (var j = 1; j <= length; j++) {
+        line += "* ";
     }
+    return line + "\n";
 }
+
+function buildTriangle(size){
+    for(var size; size <=0;x-- ){
+        console.log(size)}
 }
-console.log("haha" *3)
+
+console.log(makeLine(5));
+console.log(buildTriangle(5))
