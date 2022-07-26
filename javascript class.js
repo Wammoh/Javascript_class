@@ -93,9 +93,9 @@ function makeLine(length) {
 }
 
 function buildTriangle(size){
-    for(var size; size <=0;x-- ){
-        console.log(size)}
+    for(var triangle = 0; size ===0;size-- ){
+        makeLine(size)}
 }
 
-console.log(makeLine(5));
+
 console.log(buildTriangle(5))
