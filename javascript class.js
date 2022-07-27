@@ -134,3 +134,5 @@ return boo;
 };
 
 console.log(cry(4));
+
+inline function stuff
