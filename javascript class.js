@@ -101,14 +101,38 @@
 //     return line + "\n";
 // }
 
-// console.log(buildTriangle(10))
+// // console.log(buildTriangle(10))
 
 
-var catSays = function(max) {
-    var catMessage = "";
-    for (var i = 0; i < max; i++) {
-      catMessage += "meow ";
+// var catSays = function(max) {
+//     var catMessage = "";
+//     for (var i = 0; i < max; i++) {
+//       catMessage += "meow ";
+//     }
+//     return catMessage;
+//   };
+//   console.log(catSays);
+
+
+// var laugh = function(y){
+//   var haha =""
+//   for(i=0;i<=y;i++){
+//   haha += "ha";
+//   }
+// return haha
+// }
+// console.log(laugh(10));
+
+
+// your code goes here
+boo ="";
+cry = function upset(num){
+    for (i=0;i<=num;i++){
+    boo += "boohoo";
     }
-    return catMessage;
-  };
-  console.log(catSays);
+return boo;
+};
+
+console.log(cry(4));
+
+inline function stuff
