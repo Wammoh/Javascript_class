@@ -82,20 +82,33 @@
 // console.log(laugh(4))
 
 
+// function buildTriangle(length){
+//     var triangle = "";
+//     for(lineNumber=1; lineNumber<= length; lineNumber++){
+//         triangle =triangle + makeLine(lineNumber)
+//     }
+//         return triangle
+//     }
 
 
-function makeLine(length) {
-    var line = "";
-    for (var j = 1; j <= length; j++) {
-        line += "* ";
+
+
+// function makeLine(length) {
+//     var line = "";
+//     for (var j = 1; j <= length; j++) {
+//         line += "* ";
+//     }
+//     return line + "\n";
+// }
+
+// console.log(buildTriangle(10))
+
+
+var catSays = function(max) {
+    var catMessage = "";
+    for (var i = 0; i < max; i++) {
+      catMessage += "meow ";
     }
-    return line + "\n";
-}
-
-function buildTriangle(size){
-    for(var triangle = 0; size ===0;size-- ){
-        makeLine(size)}
-}
-
-
-console.log(buildTriangle(5))
+    return catMessage;
+  };
+  console.log(catSays);
